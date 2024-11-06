@@ -7,6 +7,8 @@ namespace Assignment1._3
     {
         static void Main(string[] args)
         {
+            //1.3.1
+
            do
             {
 
@@ -39,7 +41,13 @@ namespace Assignment1._3
             Console.WriteLine("\t\t\t\t\tEnd of code. Thank you!");
 
         }
-        static void AreaOfTriangle()
+
+        //1.3.1
+
+        
+
+
+        static double AreaOfTriangle()
         {
             Console.Write("Enter the base of the triangle: ");
             double baseTri = Convert.ToDouble(Console.ReadLine());
@@ -50,8 +58,10 @@ namespace Assignment1._3
             double areaTri = 0.5 * baseTri * heightTri;
 
             Console.WriteLine($"The area of the triangle is:  {areaTri}");
+
+            return areaTri;
         }
-        static void AreaOfSquare()
+        static double AreaOfSquare()
         {
             Console.WriteLine("Enter the lenth of the square: ");
             double lengthSqr = Convert.ToDouble(Console.ReadLine());
@@ -59,8 +69,10 @@ namespace Assignment1._3
             double areaSqr = lengthSqr * lengthSqr;
 
             Console.WriteLine($"The area of the square is: {areaSqr}");
+
+            return areaSqr;
         }
-        static void AreaOfRectangle()
+        static double AreaOfRectangle()
         {
             Console.WriteLine("Enter the length of the rectangle: ");
             double lengthRec = Convert.ToDouble(Console.ReadLine());
@@ -72,6 +84,17 @@ namespace Assignment1._3
 
             Console.WriteLine($"The area of the rectangle is: {areaRec}");
 
+            return areaRec;
+
         }
+
+       
     }
+       
+       
+
+
+
+
+    
 }
